@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Usuario\dev\OLDGAME-PROJECT\Proyectos\_games\Type Attack\main\build\CMakeFiles\673c1ca3ae0249804770b8ee5a57c09f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1E73134D-759B-3B8E-AC02-35BFC8CDA183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

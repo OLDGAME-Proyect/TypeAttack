@@ -1,0 +1,918 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Ruby40-x64\\bin"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\android - platform - tools\\platform-tools"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\OpenNI\\Bin"
+        - "C:\\Program Files (x86)\\PrimeSense\\NITE\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Ruby34\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\agy\\bin"
+        - "C:\\gcc\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 18.6.3+84d3e95b4 para .NET Framework
+      Compilaci├│n iniciada a las 18/7/2026 8:42:39 p.┬ám..
+      
+      Proyecto "C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:00.90
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/"
+      - "C:/Ruby40-x64/bin/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/android - platform - tools/platform-tools/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/OpenNI/Bin/"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Ruby34/bin/"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/"
+      - "C:/gcc/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Ruby40-x64\\bin"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\android - platform - tools\\platform-tools"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\OpenNI\\Bin"
+        - "C:\\Program Files (x86)\\PrimeSense\\NITE\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Ruby34\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\agy\\bin"
+        - "C:\\gcc\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/"
+      - "C:/Ruby40-x64/bin/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/android - platform - tools/platform-tools/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/OpenNI/Bin/"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Ruby34/bin/"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/"
+      - "C:/gcc/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/lld-link"
+      - "C:/Ruby40-x64/bin/lld-link.com"
+      - "C:/Ruby40-x64/bin/lld-link.exe"
+      - "C:/Ruby40-x64/bin/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.com"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.exe"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link"
+      - "C:/android - platform - tools/platform-tools/lld-link.com"
+      - "C:/android - platform - tools/platform-tools/lld-link.exe"
+      - "C:/android - platform - tools/platform-tools/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files (x86)/OpenNI/Bin/lld-link.com"
+      - "C:/Program Files (x86)/OpenNI/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/OpenNI/Bin/lld-link"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/lld-link.com"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Ruby34/bin/lld-link.com"
+      - "C:/Ruby34/bin/lld-link.exe"
+      - "C:/Ruby34/bin/lld-link"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/lld-link"
+      - "C:/gcc/bin/lld-link.com"
+    found: "C:/gcc/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Ruby40-x64\\bin"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\android - platform - tools\\platform-tools"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\OpenNI\\Bin"
+        - "C:\\Program Files (x86)\\PrimeSense\\NITE\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Ruby34\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\agy\\bin"
+        - "C:\\gcc\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/"
+      - "C:/Ruby40-x64/bin/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/android - platform - tools/platform-tools/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/OpenNI/Bin/"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Ruby34/bin/"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/"
+      - "C:/gcc/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Ruby40-x64\\bin"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\android - platform - tools\\platform-tools"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\OpenNI\\Bin"
+        - "C:\\Program Files (x86)\\PrimeSense\\NITE\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Ruby34\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\agy\\bin"
+        - "C:\\gcc\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/"
+      - "C:/Ruby40-x64/bin/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/android - platform - tools/platform-tools/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/OpenNI/Bin/"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Ruby34/bin/"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/"
+      - "C:/gcc/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/mt"
+      - "C:/Ruby40-x64/bin/mt.com"
+      - "C:/Ruby40-x64/bin/mt.exe"
+      - "C:/Ruby40-x64/bin/mt"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.com"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/mt.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/mt.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/mt.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/mt.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Mullvad VPN/resources/mt.com"
+      - "C:/Program Files/Mullvad VPN/resources/mt.exe"
+      - "C:/Program Files/Mullvad VPN/resources/mt"
+      - "C:/android - platform - tools/platform-tools/mt.com"
+      - "C:/android - platform - tools/platform-tools/mt.exe"
+      - "C:/android - platform - tools/platform-tools/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files (x86)/OpenNI/Bin/mt.com"
+      - "C:/Program Files (x86)/OpenNI/Bin/mt.exe"
+      - "C:/Program Files (x86)/OpenNI/Bin/mt"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/mt.com"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/mt.exe"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Ruby34/bin/mt.com"
+      - "C:/Ruby34/bin/mt.exe"
+      - "C:/Ruby34/bin/mt"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/mt.com"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/mt.exe"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/mt"
+      - "C:/gcc/bin/mt.com"
+      - "C:/gcc/bin/mt.exe"
+      - "C:/gcc/bin/mt"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.com"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/mt"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Ruby40-x64\\bin"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\android - platform - tools\\platform-tools"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\OpenNI\\Bin"
+        - "C:\\Program Files (x86)\\PrimeSense\\NITE\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Ruby34\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\agy\\bin"
+        - "C:\\gcc\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/"
+      - "C:/Ruby40-x64/bin/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/android - platform - tools/platform-tools/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/OpenNI/Bin/"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Ruby34/bin/"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/"
+      - "C:/gcc/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x86/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Ruby40-x64\\bin"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\android - platform - tools\\platform-tools"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\OpenNI\\Bin"
+        - "C:\\Program Files (x86)\\PrimeSense\\NITE\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Ruby34\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\agy\\bin"
+        - "C:\\gcc\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Ruby40-x64/bin/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/android - platform - tools/platform-tools/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/OpenNI/Bin/"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Ruby34/bin/"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/"
+      - "C:/gcc/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/TypeAttack/bin/"
+      - "C:/Program Files (x86)/TypeAttack/sbin/"
+      - "C:/Program Files (x86)/TypeAttack/"
+    searched_directories:
+      - "C:/Ruby40-x64/bin/rc.com"
+      - "C:/Ruby40-x64/bin/rc.exe"
+      - "C:/Ruby40-x64/bin/rc"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.com"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/rc.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/rc.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/rc.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/rc.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python310/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Mullvad VPN/resources/rc.com"
+      - "C:/Program Files/Mullvad VPN/resources/rc.exe"
+      - "C:/Program Files/Mullvad VPN/resources/rc"
+      - "C:/android - platform - tools/platform-tools/rc.com"
+      - "C:/android - platform - tools/platform-tools/rc.exe"
+      - "C:/android - platform - tools/platform-tools/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files (x86)/OpenNI/Bin/rc.com"
+      - "C:/Program Files (x86)/OpenNI/Bin/rc.exe"
+      - "C:/Program Files (x86)/OpenNI/Bin/rc"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/rc.com"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/rc.exe"
+      - "C:/Program Files (x86)/PrimeSense/NITE/Bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Ruby34/bin/rc.com"
+      - "C:/Ruby34/bin/rc.exe"
+      - "C:/Ruby34/bin/rc"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/rc.com"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/rc.exe"
+      - "C:/Users/Usuario/AppData/Local/agy/bin/rc"
+      - "C:/gcc/bin/rc.com"
+      - "C:/gcc/bin/rc.exe"
+      - "C:/gcc/bin/rc"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/rc"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Usuario/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/Usuario/AppData/Local/Python/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/TypeAttack/bin/rc.com"
+      - "C:/Program Files (x86)/TypeAttack/bin/rc.exe"
+      - "C:/Program Files (x86)/TypeAttack/bin/rc"
+      - "C:/Program Files (x86)/TypeAttack/sbin/rc.com"
+      - "C:/Program Files (x86)/TypeAttack/sbin/rc.exe"
+      - "C:/Program Files (x86)/TypeAttack/sbin/rc"
+      - "C:/Program Files (x86)/TypeAttack/rc.com"
+      - "C:/Program Files (x86)/TypeAttack/rc.exe"
+      - "C:/Program Files (x86)/TypeAttack/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Ruby40-x64\\bin"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\android - platform - tools\\platform-tools"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\OpenNI\\Bin"
+        - "C:\\Program Files (x86)\\PrimeSense\\NITE\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Ruby34\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\agy\\bin"
+        - "C:\\gcc\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TypeAttack"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/TypeAttack"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/CMakeScratch/TryCompile-ep370j"
+      binary: "C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/CMakeScratch/TryCompile-ep370j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/CMakeScratch/TryCompile-ep370j'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e85bb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=18.0 /v:n
+        Versi├│n de MSBuild 18.6.3+84d3e95b4 para .NET Framework
+        Compilaci├│n iniciada a las 18/7/2026 8:42:41 p.┬ám..
+        
+        Proyecto "C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ep370j\\cmTC_e85bb.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ep370j\\Debug\\".
+          Creando directorio "cmTC_e85bb.dir\\Debug\\cmTC_e85bb.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_e85bb.dir\\Debug\\cmTC_e85bb.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_e85bb.dir\\Debug\\cmTC_e85bb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e85bb.dir\\Debug\\\\" /Fd"cmTC_e85bb.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36243 for x86
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e85bb.dir\\Debug\\\\" /Fd"cmTC_e85bb.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ep370j\\Debug\\cmTC_e85bb.exe" /INCREMENTAL /ILK:"cmTC_e85bb.dir\\Debug\\cmTC_e85bb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/CMakeScratch/TryCompile-ep370j/Debug/cmTC_e85bb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/CMakeScratch/TryCompile-ep370j/Debug/cmTC_e85bb.lib" /MACHINE:X86  /machine:X86 cmTC_e85bb.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e85bb.vcxproj -> C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ep370j\\Debug\\cmTC_e85bb.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_e85bb.dir\\Debug\\cmTC_e85bb.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_e85bb.dir\\Debug\\cmTC_e85bb.tlog\\cmTC_e85bb.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Usuario\\dev\\OLDGAME-PROJECT\\Proyectos\\_games\\Type Attack\\main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ep370j\\cmTC_e85bb.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36243.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

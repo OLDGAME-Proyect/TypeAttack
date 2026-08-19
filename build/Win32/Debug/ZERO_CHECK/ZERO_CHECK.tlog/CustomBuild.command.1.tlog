@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DEV\OLDGAME-PROJECT\PROYECTOS\_GAMES\TYPE ATTACK\MAIN\BUILD\CMAKEFILES\673C1CA3AE0249804770B8EE5A57C09F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main" "-BC:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/TypeAttack.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

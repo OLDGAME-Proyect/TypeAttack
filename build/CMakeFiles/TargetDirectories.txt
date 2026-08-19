@@ -1,0 +1,3 @@
+C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/TypeAttack.dir
+C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Usuario/dev/OLDGAME-PROJECT/Proyectos/_games/Type Attack/main/build/CMakeFiles/ZERO_CHECK.dir
