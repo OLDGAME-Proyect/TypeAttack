@@ -1,10 +1,5 @@
-#ifndef GAME_H
+﻿#ifndef GAME_H
 #define GAME_H
-
-
-
-
-// orations
 
 typedef struct {
     const char *text;
@@ -13,6 +8,5 @@ typedef struct {
 } Sentence;
 
 void game_loop(const char *difficulty);
-
 
 #endif

@@ -1,12 +1,10 @@
-#ifndef RENDER_H
-#define RENDER_H
+﻿#ifndef MAIN_H
+#define MAIN_H
 
-void render_input_bar(void);
-
-void render_sentence(const char *text, int x, int y);
-
-void render_clear(void);
-
-void render_present(void);
+#include "game.h"
+#include "menu.h"
+#include "render.h"
+#include "words.h"
+#include "score.h"
 
 #endif
