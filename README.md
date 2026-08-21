@@ -1,18 +1,12 @@
-﻿```
-================================================================================
-  ______  __  __  ____   ______     ___   ______ ______ ___    ______ __ __
- /_  __/ / / / / / __ \ / ____/    /   | /_  __//_  __//   |  / ____// //_/
-  / /   / /_/ / / /_/ // __/      / /| |  / /    / /  / /| | / /    / ,<   
- / /    \__, / / ____// /___     / ___ | / /    / /  / ___ |/ /___ / /| |  
-/_/    /____/ /_/    /_____/    /_/  |_|/_/    /_/  /_/  |_|\____//_/ |_|  
-================================================================================
-```
+﻿![Banner](banner.gif)
 
 ![Language](https://img.shields.io/badge/Language-C11-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg)
 ![Architecture](https://img.shields.io/badge/Architecture-x86%20Win32-red.svg)
 ![Graphics](https://img.shields.io/badge/Graphics-PDCurses%20%2F%20NCurses-green.svg)
 ![Standard](https://img.shields.io/badge/Standard-ISO%2FIEC%209899%3A2011-orange.svg)
+[![itch.io](https://img.shields.io/badge/itch.io-FA5C5C?style=flat&logo=itch.io&logoColor=white)](https://oldgame-proyect.itch.io/typeattack)
+  <a href="https://ko-fi.com/sromandev"><img src="https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=flat-square&logo=kofi&logoColor=white" alt="Ko-fi"></a>
 
 Type Attack is a high-performance terminal typing game written in C11. It features real-time input verification, per-character animated rainbow feedback, a dynamic difficulty and leveling engine, and persistent cross-platform scoring.
 
@@ -93,4 +87,4 @@ cmake --build build
 
 ## License
 
-Internal proprietary software. Copyright (C) 2026.
+GPL3.0. Copyright OLDGAME-Proyect (C) 2026.
